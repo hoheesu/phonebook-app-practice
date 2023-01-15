@@ -12,7 +12,7 @@ function ContactForm() {
 
         <Form.Group className="mb-3" controlId="formContact">
           <Form.Label>전화번호</Form.Label>
-          <Form.Control type="" placeholder="전화번호를 입력해주세요 ~" maxLength="11" />
+          <Form.Control type="" placeholder="전화번호를 입력해주세요 ~" maxLength={11} />
         </Form.Group>
         <Button variant="danger" type="submit">
           연락처 추가
