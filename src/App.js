@@ -1,7 +1,6 @@
 import './App.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import ContactForm  from './conponents/ContactForm'
-import SearchBox from './conponents/SearchBox'
 import ContactList from './conponents/ContactList'
 
 // v 1. 왼쪽에 연락처 등록하는 폼이 있고 오른쪽에는 연락처 리스트와 search 창이 있다.
@@ -19,7 +18,6 @@ function App() {
             <ContactForm />
           </Col>
           <Col>
-            <SearchBox />
             <ContactList />
           </Col>
         </Row>

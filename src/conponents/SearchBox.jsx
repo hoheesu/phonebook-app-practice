@@ -3,7 +3,7 @@ import { Row, Col, Form, Button } from 'react-bootstrap'
 
 function SearchBox() {
   return (
-    <div>
+    <Form>
       <Row>
         <Col lg={10}>
           <Form.Control type="text" placeholder="이름을 입력해주세요 ~" />
@@ -12,7 +12,7 @@ function SearchBox() {
           <Button>찾기</Button>
         </Col>
       </Row>
-    </div>
+    </Form>
   )
 }
 
